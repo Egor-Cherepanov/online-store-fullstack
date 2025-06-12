@@ -1,0 +1,42 @@
+.product-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  // max-width: 1180px;
+
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+
+  .product-container {
+    max-width: 1180px;
+
+    display: flex;
+    align-items: stretch;
+    gap: 32px;
+  }
+
+  .product-card-img-wrapper {
+    background: #f6f6f6;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: width 0.2s, height 0.2s;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 560px;
+    max-height: 560px;
+  }
+
+  .product-card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+  }
+
+  .product-info-wrapper {
+    flex: 1 1 0%;
+  }
+}

@@ -1,0 +1,38 @@
+.cart-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.cart-icon-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  .cart-icon {
+    font-size: 24px;
+    color: #222;
+    transition: all 0.2s ease;
+  }
+
+  .products-number {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    color: #222;
+    font-weight: 500;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+    color: #555;
+  }
+}

@@ -1,0 +1,7 @@
+export * from "./authorization/authorization"
+export * from "./error-page/error-page"
+export * from "./main-page/main-page"
+export * from "./product-page/product-page"
+export * from "./products/products"
+export * from "./registration/registration"
+export * from "./shopping-cart/shopping-cart"

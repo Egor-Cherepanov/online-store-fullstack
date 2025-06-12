@@ -1,0 +1,91 @@
+.header-container {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  height: 80px;
+
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1800px;
+  padding: 0 40px;
+  height: 80px;
+  margin: 0 auto;
+
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-self: start;
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-self: end;
+  }
+}
+
+.yzy-logo {
+  width: 60px;
+  height: 60px;
+  margin: 10px 0;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+// Адаптивность для меньших экранов
+@media (max-width: 1200px) {
+  .header-container {
+    padding: 15px 30px;
+  }
+
+  .header-content {
+    grid-template-columns: auto 1fr auto;
+
+    .header-left,
+    .header-right {
+      gap: 20px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    padding: 10px 20px;
+  }
+
+  .header-content {
+    grid-template-columns: auto 1fr auto;
+
+    .header-left {
+      gap: 15px;
+    }
+
+    .header-right {
+      gap: 15px;
+    }
+  }
+
+  .yzy-logo {
+    width: 35px;
+    height: 35px;
+  }
+
+  .profile-icon {
+    font-size: 22px;
+  }
+}

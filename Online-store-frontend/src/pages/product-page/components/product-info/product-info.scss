@@ -1,0 +1,62 @@
+.product-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 440px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  gap: 10px;
+}
+
+.product-info-container h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.product-info-price {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.product-info-select-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.product-info-add-btn {
+  padding: 8px 24px;
+  font-size: 1rem;
+  // font-family: inherit;
+  border: 1px solid #222;
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.product-info-add-btn:hover {
+  background: #222;
+  color: #fff;
+}
+
+.product-info-male {
+  font-size: 0.97rem;
+  color: #777;
+}
+
+.product-info-id {
+  font-size: 0.97rem;
+  color: #777;
+}
+
+.product-info-category {
+  font-size: 1rem;
+  color: #777;
+}
+
+.product-info-description {
+  font-size: 1.04rem;
+  color: #222;
+}

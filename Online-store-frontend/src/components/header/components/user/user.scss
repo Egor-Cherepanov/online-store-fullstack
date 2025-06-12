@@ -1,0 +1,57 @@
+.user-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.login-icon {
+  // margin-top: 4px;
+  font-size: 24px;
+  color: #000;
+  transition: all 0.2s ease;
+}
+
+.user-logged,
+.user-login {
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.user-logged {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  // .profile-icon {
+  //   font-size: 24px;
+  //   color: #000;
+  //   transition: all 0.2s ease;
+  // }
+
+  .user-name {
+    // margin-top: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    color: #000;
+  }
+}
+
+.user-login {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  .authorize-text {
+    // margin-top: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    color: #000;
+  }
+}

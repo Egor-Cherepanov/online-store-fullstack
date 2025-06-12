@@ -1,0 +1,22 @@
+// /* error toast */
+// .Toastify__toast--error {
+//   background: #fff0f0 !important;
+//   color: #d32f2f !important;
+//   border-left: 5px solid #d32f2f !important;
+//   font-weight: bold;
+// }
+
+// /* success toast */
+
+.Toastify__toast--error {
+  background: #fd4d4d !important;
+  color: #fff !important;
+  font-weight: 400;
+  border-radius: 24px !important;
+}
+.Toastify__toast--success {
+  background: #099a45 !important;
+  color: #f0fff4 !important;
+  font-weight: 400;
+  border-radius: 24px !important;
+}

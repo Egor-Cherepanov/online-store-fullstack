@@ -1,0 +1,22 @@
+.breadcrumbs-contaner {
+  display: flex;
+  align-self: flex-start;
+  font-size: 16px;
+  gap: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #222;
+  margin-bottom: 10px;
+
+  a {
+    text-decoration: none;
+    transition: text-decoration 0.2s;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  div {
+    white-space: nowrap;
+  }
+}

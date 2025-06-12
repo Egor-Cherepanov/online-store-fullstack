@@ -1,0 +1,33 @@
+.product-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.product-card-container {
+  max-width: 280px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px;
+  transition: transform 0.2s ease; /* плавный эффект */
+}
+
+.product-card-container:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+// .product-card-img {
+// }
+
+.product-card-title {
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.product-card-price {
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+}

@@ -1,0 +1,42 @@
+.product-row {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+
+  td {
+    padding: 10px;
+  }
+
+  .product-name {
+    max-width: 200px;
+    white-space: pre-line;
+  }
+
+  .actions {
+    text-align: center;
+    white-space: nowrap;
+    gap: 8px;
+    height: 100%;
+    min-height: 100%;
+
+    button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      display: inline-block;
+      vertical-align: middle;
+      padding: 8px;
+      height: 100%;
+    }
+
+    .edit-btn:hover {
+      color: #007bff;
+      transform: scale(1.1);
+    }
+
+    .delete-btn:hover {
+      color: red;
+      transform: scale(1.1);
+    }
+  }
+}

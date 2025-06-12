@@ -1,0 +1,129 @@
+.patch-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  font-family: "Montserrat", sans-serif;
+}
+
+.patch-product-window-container {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 1180px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #222;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: auto;
+    line-height: 1.2;
+    color: #222;
+  }
+}
+
+.patch-product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.patch-product-form > .form-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.patch-product-form > .form-row > div {
+  flex: 1;
+  min-width: 80px;
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+  text-align: center;
+}
+
+.patch-product-form > div:not(.form-row, .form-buttons),
+.patch-product-form > .form-row > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+.patch-product-form > .form-buttons {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.patch-product-form label {
+  font-size: 1rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.patch-product-form input {
+  padding: 8px 12px;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.2s;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.patch-product-form input:focus {
+  outline: none;
+  border-color: #222;
+}
+
+.patch-product-form .error-message {
+  color: #e53935;
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
+
+.patch-product-form button {
+  padding: 10px 24px;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 1px solid #222;
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.patch-product-form button:hover {
+  background: #222;
+  color: #fff;
+}
