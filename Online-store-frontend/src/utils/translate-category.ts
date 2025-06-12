@@ -12,8 +12,6 @@ export function translateCategory(category: string): string {
       return "Куртка"
     case "Pants":
       return "Брюки"
-    // case "Sneakers":
-    // return "Кроссовки"
     case "Accessory":
       return "Аксессуар"
     default:
@@ -35,8 +33,6 @@ export function translateCategoryBack(category: string): string {
       return "Jacket"
     case "Брюки":
       return "Pants"
-    // case "Кроссовки":
-    //   return "Sneakers"
     case "Аксессуар":
       return "Accessory"
     default:

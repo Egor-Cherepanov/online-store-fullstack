@@ -24,18 +24,8 @@ const optionsCategory: SelectOption[] = [
   { value: "Long Sleeve", label: "Long Sleeve" },
   { value: "Sweatshirt", label: "Sweatshirt" },
   { value: "Jacket", label: "Jacket" },
-  // { value: "Jeans", label: "Jeans" },
   { value: "Pants", label: "Pants" },
-  // { value: "Shorts", label: "Shorts" },
-  // { value: "Shirt", label: "Shirt" },
-  // { value: "Crewneck", label: "Crewneck" },
-  // { value: "Vest", label: "Vest" },
-  // { value: "Sneakers", label: "Sneakers" },
-  // { value: "Cap", label: "Cap" },
-  // { value: "Hat", label: "Hat" },
-  // { value: "Bag", label: "Bag" },
   { value: "Accessory", label: "Accessory" },
-  // { value: "Scarf", label: "Scarf" },
 ]
 
 export const CustomSelect: React.FC<CustomSelectProps> = ({

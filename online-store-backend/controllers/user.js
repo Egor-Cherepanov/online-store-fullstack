@@ -55,13 +55,11 @@ function getRoles() {
 }
 
 //delete
-
 function deleteUser(id) {
   return User.deleteOne({ _id: id })
 }
 
 //edit(roles)
-
 function updateUser(id, userData) {
   return User.findByIdAndUpdate(id, userData, { new: true })
 }

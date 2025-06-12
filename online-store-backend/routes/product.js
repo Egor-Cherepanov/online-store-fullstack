@@ -13,16 +13,6 @@ const ROLES = require("../constants/roles")
 
 const router = express.Router({ mergeParams: true })
 
-// router.get("/", async (req, res) => {
-//   const { products, lastPage } = await getProducts(
-//     req.query.search,
-//     req.query.limit,
-//     req.query.page
-//   )
-
-//   res.send({ data: { lastPage, products: products.map(mapProduct) } })
-// })
-
 router.get("/", async (req, res) => {
   const {
     search = "",

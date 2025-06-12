@@ -6,17 +6,12 @@
   gap: 10px;
   font-family: "Montserrat", sans-serif;
   padding: 10px 20px;
-  // border: 1px solid #ddd;
-  // border-radius: 2px;
-  // background-color: #f7f7f7;
-  // box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
 .paginaton-container button {
   padding: 8px 12px;
   background-color: white;
   border: none;
-  // border-radius: 6px;
   font-size: 20px;
   transition: background-color 0.2s, color 0.2s;
   display: flex;
@@ -25,9 +20,6 @@
 }
 
 .paginaton-container button:hover:not(:disabled) {
-  // background-color: #e0f0ff;
-  // border-color: #3498db;
-  // color: #3498db;
   cursor: pointer;
   transform: scale(1.1);
 }
@@ -41,7 +33,5 @@
   font-size: 16px;
   font-weight: 500;
   padding: 6px 14px;
-  // border-radius: 6px;
-  // background-color: white;
   color: black;
 }

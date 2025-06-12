@@ -13,7 +13,6 @@ export const CartCard = ({
   price,
   quantity,
   size,
-  // productsQuantity,
   setIsLoading,
 }: CartCardProps) => {
   const fetchProductsInCart = useHeader((state) => state.fetchProductsInCart)

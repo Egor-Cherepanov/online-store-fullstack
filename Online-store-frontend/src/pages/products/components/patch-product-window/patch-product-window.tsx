@@ -46,7 +46,6 @@ export const PatchProductWindow = ({
       )
       if (productData.data) {
         ToastSuccess("Товар успешно обновлен")
-        // Обновляем локальное состояние
         const updatedProducts = products.map((p) =>
           p.id === product.id ? { ...p, ...data } : p
         )

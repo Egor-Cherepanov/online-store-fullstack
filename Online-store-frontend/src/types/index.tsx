@@ -22,7 +22,7 @@ export interface Product {
   id?: string
   _id?: string
   title: string
-  male: "M" | "F" | "U"
+  male: "M" | "W" | "U"
   category: string
   quantity: number
   image: string

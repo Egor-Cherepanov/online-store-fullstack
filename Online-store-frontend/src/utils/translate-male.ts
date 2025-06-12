@@ -4,8 +4,6 @@ export function translateMale(male: string): string {
       return "Мужской"
     case "W":
       return "Женский"
-    // case "F":
-    //   return "Женский"
     case "U":
       return "Унисекс"
     default:

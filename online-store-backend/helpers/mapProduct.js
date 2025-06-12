@@ -1,5 +1,4 @@
 const mongoose = require("mongoose")
-// const mapComment = require("./mapComment")
 
 module.exports = function (product) {
   return {

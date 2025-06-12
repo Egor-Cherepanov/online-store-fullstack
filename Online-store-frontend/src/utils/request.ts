@@ -9,7 +9,6 @@ export const request = async (url: string, method = "GET", data = {}) => {
     credentials: "include",
   }
 
-  // Добавляем body только для методов, которые его поддерживают
   if (method !== "GET" && method !== "HEAD" && data) {
     config.body = JSON.stringify(data)
   }
