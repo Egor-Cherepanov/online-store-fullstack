@@ -1,7 +1,7 @@
 require("dotenv").config()
 
 const express = require("express")
-const chalk = require("chalk").default
+const chalk = require("chalk")
 const mongoose = require("mongoose")
 const cookieParser = require("cookie-parser")
 const routes = require("./routes")
