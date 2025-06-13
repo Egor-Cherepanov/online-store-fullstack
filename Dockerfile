@@ -11,7 +11,7 @@ RUN npm run build
 WORKDIR /usr/src/app/online-store-backend
 RUN npm i
 
-EXPOSE 3001
+EXPOSE 3000
 
 CMD [ "node", "app.js"]
 
